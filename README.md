@@ -3,3 +3,6 @@
 
 ## Live site
 https://rparias.github.io/drone-page-css/
+
+## Figma file
+https://www.figma.com/design/Z3lglo2FLnwFAbHVnvw1cm/Drones?node-id=0-1
