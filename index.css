@@ -366,4 +366,37 @@ button {
     font-size: 1rem;
     padding: 0 1em;
   }
+
+  /* Section 1 */
+  .quote {
+    width: 80%;
+    display: grid;
+    place-content: center;
+  }
+
+  blockquote, cite {
+    width: 50%;
+    justify-self: center;
+  }
+
+  blockquote {
+    font-size: 2rem;
+  }
+
+  /* Section 2 */
+  .gallery {
+    display: flex;
+    gap: 4em;
+  }
+
+  .gallery-container {
+    margin-top: -5em;
+    z-index: 1;
+  }
+
+  h2 {
+    font-size: 4rem;
+    font-weight: normal;
+    line-height: 91.6%;
+  }
 }
