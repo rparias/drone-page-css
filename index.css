@@ -127,6 +127,7 @@ h1 {
 .blur, .drone {
   position: absolute;
   left: 0;
+  z-index: 1;
 }
 
 .blur {
@@ -398,5 +399,24 @@ button {
     font-size: 4rem;
     font-weight: normal;
     line-height: 91.6%;
+  }
+
+  /* Section 3 */
+  .cols-2 {
+    display: flex;
+    gap: 3em;
+
+    .form-container, .other-info {
+      flex-basis: 0;
+      flex-grow: 1;
+    }
+
+    .other-info {
+      margin-top: 2em;
+    }
+
+    input {
+      padding: 1.5em;
+    }
   }
 }
